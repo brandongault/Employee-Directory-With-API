@@ -1,5 +1,7 @@
 body {
   position: relative;
+  background-color: #fcfcfc;
+  font-family: 'Manrope', sans-serif;
 }
 
 .overlay {
@@ -32,3 +34,77 @@ body {
 .hidden {
   display: none;
 }
+
+/*---------------------------------------------------
+---------------- EMPLOYEE CARD STYLES ---------------
+-------------------------------------------------- */
+
+/*------------------ GRID STYLES ----------------- */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 500px 500px 500px;
+  grid-template-rows:auto auto auto auto;
+  justify-content: center;
+  grid-gap: 30px;
+}
+
+.header {
+  margin-top: 50px;
+  margin-left: 180px;
+  margin-bottom: 30px;
+  font-size: 1.6rem;
+  color: #757575;
+  font-weight: 200;
+}
+
+.card {
+  display: flex;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.avatar {
+  border-radius: 360px;
+  margin-right: 15px;
+}
+
+.text-container {
+  align-self: center;
+}
+
+.name {
+  font-weight: 500;
+}
+
+.name,
+.email,
+.address {
+  margin: 0;
+}
+
+.email,
+.address {
+  color: #b4b8ba;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
