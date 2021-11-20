@@ -13,7 +13,7 @@ const modalClose = document.querySelector(".modal-close");
 //----------------------------------------
 //---------- FETCH DATA FROM API ---------
 //----------------------------------------
-fetch(ulrAPI)
+fetch(urlAPI)
   .then(res => res.json())
   .then(res => res.results)
   .then(displayEmployees)
