@@ -29,12 +29,37 @@ body {
   right: 15px;
   top: 5px;
   cursor: pointer;
+  border: none;
 }
 
 .hidden {
   display: none;
 }
 
+.phone,
+.address,
+.birthday {
+  color: #aeb2b4;
+}
+
+.modal-close, .card, .change-modal{
+    cursor: pointer;
+}
+
+.change-modal-left, .change-modal-right{
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    position: absolute;
+    top: 55px;
+
+}
+.change-modal-left{
+    left: 25px;
+}
+.change-modal-right{
+    right: 25px;
+}
 /*---------------------------------------------------
 ---------------- EMPLOYEE CARD STYLES ---------------
 -------------------------------------------------- */
